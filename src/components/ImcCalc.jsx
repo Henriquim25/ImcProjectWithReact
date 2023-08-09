@@ -56,7 +56,7 @@ function ImcCalc({calcImc}) {
         </div>
         <div className="action-control">
           <Button id="calc-btn" text="Calcular " action={(e) =>{
-            calcImc(e,weight,height)
+            calcImc(e,height,weight)
           }} />
           <Button id="clear-btn" text="Limpar "action={clearForm} />
         </div>
